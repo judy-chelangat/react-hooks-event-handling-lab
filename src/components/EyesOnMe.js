@@ -6,11 +6,11 @@ function EyesOnMe(){
 
     function handleFocus(){
         setIsFocused(true)
-       console.log("true")
+       console.log("Good!")
     }
     function handleBlur(){
         setIsFocused(false)
-        console.log("eyes on me")
+        console.log("Hey! Eyes on me!")
     }
     return (
         <>
